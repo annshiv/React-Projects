@@ -1,0 +1,34 @@
+.displayweather {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.displayweather .maincard {
+  width: 500px;
+  margin-top: 20px;
+  align-self: center;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid skyblue;
+}
+
+.displayweather .maincard .cardtitle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
+
+.displayweather h1 {
+  font-size: 80px;
+  margin: -10px;
+  margin-left: -150px;
+}
+
+.displayweather .weather-description {
+  position: absolute;
+  left: 10px;
+  font-size: 24px;
+}
