@@ -1,0 +1,47 @@
+.main {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  width: max-content;
+  padding: 0px 20px 20px 20px;
+  margin-left: 25%;
+}
+
+.main .heading1 {
+  font-size: 64px;
+  font-family: "Times New Roman", Times, serif;
+  color: skyblue;
+}
+
+.main form input {
+  padding: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.main form input:focus {
+    outline-color: skyblue;
+  }
+
+.main .getweather {
+  width: 30%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: skyblue;
+  border: none;
+}
+
+.main .getweather:hover {
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid skyblue;
+  color: skyblue;
+}
+
+.main .getweather:focus {
+  outline: none;
+}

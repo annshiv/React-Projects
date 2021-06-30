@@ -1,0 +1,10 @@
+.displayweather {
+  border: 1px solid skyblue;
+  width: 50%;
+  margin-left: 27%;
+  border-radius: 10px;
+}
+
+.cardtitle {
+    text-align: center;
+}
