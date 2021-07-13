@@ -1,5 +1,6 @@
 import React from "react";
 import faker from "faker";
+import "./App.css";
 
 const CommentDetails = (props) => {
   return (
