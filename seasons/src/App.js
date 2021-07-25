@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import SeasonDetails from "./SeasonDetail";
+import SeasonDisplay from "./SeasonDisplay";
 
 class App extends React.Component {
   state = { lat: null, errorMessage: "" };
@@ -18,7 +18,7 @@ class App extends React.Component {
     }
 
     if (!this.state.errorMessage && this.state.lat) {
-      return <SeasonDetails lat={this.state.lat} />
+      return <SeasonDisplay lat={this.state.lat} />;
     }
 
     return <div>Loading ...</div>;
