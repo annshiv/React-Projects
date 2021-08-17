@@ -5,4 +5,4 @@ dist/
 .DS_Store
 coverage/
 .vscode/
-src/App.js
+App.js
